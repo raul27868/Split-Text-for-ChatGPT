@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Divide y Copia Texto</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-panel">
+        <h2>Enter your Text</h2>
+        <textarea id="input-text" placeholder="Enter your text here"></textarea>
+        <div class="input-length">
+          <label for="text-length">Text Length:</label>
+          <input type="number" id="text-length" name="text-length" min="1" value="1000">
+        </div>
+        <button id="divide-text">Split Text</button>
+      </div>
+      <div class="right-panel">
+        <h2>Split Text</h2>
+        <div class="tabs">
+          <ul class="tab-header">
+          </ul>
+          <div class="tab-content">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
